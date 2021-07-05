@@ -8,7 +8,7 @@ Here's some places to leanr more about the Ope Banking Brasil certification prog
 
 ## Certified Open Banking Brasil Functional API Implementations
 
-### v1.0.0 Release Candidate 6.7
+### EXAMPLE SUBMISSION
 
 These deployments have achieved certification for the Functional API Standards as published Juy 5th 2021:
 
