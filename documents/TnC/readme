@@ -12,7 +12,7 @@ A instituição que requisitar a certificação deverá enviar os dois documento
 
 O Mesmo documento de certificado de conformidade funcional pode ser submetido para múltiplas APIs, desde que sejam devidamentes explicitadas as API sendo certificada em "Nome e versão da API certificada (“Test Plan”):"  
 
-As submissões dos arquivos .zip deverão ser realizadas de forma separada entre APIs no canal do Service Desk: https://servicedesk.openbankingbrasil.org.br/servicePortal/submitSR?category_id=513 
+As submissões dos arquivos .zip deverá ser realizadas de forma separada para cada APIs a ser certificada. Cada .zip deve conter o log referente a apenas um plano de testes. 
 
 O Certificado de conformidade funcional deve ser assinado por um dos representates estatutarios da instiuição ou por representante cujos poderes foram devidamente outorgados por procuração a ser anexada no pedido de conformidade funcional.
 
