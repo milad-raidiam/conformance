@@ -10,7 +10,7 @@ Here's some places to leanr more about the Ope Banking Brasil certification prog
 
 ### EXAMPLE SUBMISSION
 
-These deployments have achieved certification for the Functional API Standards as published Juy 5th 2021:
+These deployments have achieved certification for the Functional API Standards as published July 5th 2021:
 
 | Organisation | Brand Name             | Consents API                                                                                                                                              | Customers (Personal) API | Customers (Business) API | Resources API | Registrations API | Accounts API | Credit Cards API | Credit Operations API |
 |--------------|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|--------------------------|---------------|-------------------|--------------|------------------|-----------------------|
