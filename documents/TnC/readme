@@ -13,6 +13,10 @@ A instituição que requisitar a certificação deverá enviar os dois documento
 O Certificado de conformidade funcional deve ser assinado por um dos representates estatutarios da instiuição ou por representante cujos poderes foram devidamente outorgados por procuração a ser anexada no pedido de conformidade funcional.
 
 A consulta dos representantes será realizada utilizando a seguinte API do Banco Central:
-https://olinda.bcb.gov.br/olinda/service/Informes_ComposicaoGruposEstatutarios/version/v1/odata/cargosEstatutariosPorCNPJ(cnpj=@cnpj)
+https://olinda.bcb.gov.br/olinda/service/Informes_ComposicaoGruposEstatutarios/version/v1/odata/cargosEstatutariosPorCNPJ
+
+Um exemplo de chamado utilizando essa API para o Banco do Brasil, cujo codigo ISPB é 00000000, seria:
+
+https://olinda.bcb.gov.br/olinda/service/Informes_ComposicaoGruposEstatutarios/version/v1/odata/cargosEstatutariosPorCNPJ(cnpj=@cnpj)?%40cnpj=%2700000000%27&%24format=text%2Fplain
 
 Reforçamos que não é necessário o reconhecimento de firma para assinatura do certificado de conformidade funcional, podendo o mesmo ser assinado através de assinatura digital ou através da eventual digitalização do documento impresso assinado.
