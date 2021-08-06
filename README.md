@@ -8,8 +8,6 @@ Here's some places to learn more about the Open Banking Brasil certification pro
 
 ## Certified Open Banking Brasil Functional API Implementations
 
-### EXAMPLE SUBMISSION
-
 These deployments have achieved certification for the Functional API Standards as published July 5th 2021:
 
 | Organisation  | Deployment                   | Consentimento API | Dados Cadastrais (PF) API | Dados Cadastrais (PJ) API | Resources API                                                                                                                                                                                                                                                   | Contas API | Cartão de Crédito API | Operações de Crédito - Empréstimos API | Operações de Crédito - Financiamentos API | Operações de Crédito - Adiantamento a Depositantes API | Operações de Crédito - Direitos Creditórios Descontados API |
