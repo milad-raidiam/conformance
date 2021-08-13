@@ -16,6 +16,7 @@ func main() {
 
 	//Read lines from file
 	lines, _ := csv.NewReader(f).ReadAll()
+	lines = lines[1:]
 
 	//Set the table to output as a string
 	tableOutput := &strings.Builder{}
