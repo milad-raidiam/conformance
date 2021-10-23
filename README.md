@@ -12,6 +12,8 @@ A IN REVISION status *may* be issued where the testing working group has been in
 
 A PASS\* status *may* be issued where the testing working group has been supplied with a technical submission that is conformant however the submitting institution has not provided accurate attestation of conformance documentation. This temporary state is only be available for 're-certification' submissions.
 
+A PASS status will be issued when the testing working group receives a compliant technical submission and the requesting institution has provided accurate proof of compliance documentation. Certificates in “PASS” status *may* their status to “IN REVISION” when a previously unmapped technical issue is identified and it is considered highly critical to the ecosystem's interoperability environment
+
 ## Certified Open Banking Brasil Functional API Implementations - Customer data
 
 These deployments have achieved certification for the Functional API Standards as published Sep 27th 2021:
