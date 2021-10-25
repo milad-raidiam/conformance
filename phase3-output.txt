@@ -1,3 +1,2 @@
-|  Organisation   |        Payments         |
-|------|------------------|
-| Test | https://test.com |
+| Organisation | Payments |
+|---|---|
