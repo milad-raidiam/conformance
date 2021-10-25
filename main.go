@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/csv"
 	"flag"
-	"log"
 	"os"
 	"strconv"
 	"strings"
@@ -27,7 +26,6 @@ func init() {
 }
 
 func main() {
-	log.Print(Target)
 	if Target == "phase2" || Target == "all" {
 		generateFromCsv("./phase2-data.csv", "./phase2-output.txt", []string{"Organisation", "Deployment", "Consentimento API", "Dados Cadastrais (PF) API", "Dados Cadastrais (PJ) API", "Resources API", "Contas API", "Cartão de Crédito API", "Operações de Crédito - Empréstimos API", "Operações de Crédito - Financiamentos API", "Operações de Crédito - Adiantamento a Depositantes API", "Operações de Crédito - Direitos Creditórios Descontados API"})
 	}
