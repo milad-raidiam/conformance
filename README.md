@@ -58,6 +58,7 @@ These deployments have achieved certification for the Functional API Standards a
 
 ## Certified Open Banking Brasil Functional API Implementations - Payments
 
-|                                Organisation                                |                         Deployment                          |                             Payments API   |
-|-----------------------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-||
+|          Organisation          |   Deployment    |                                                                                                                                                         Payments                                                                                                                                                          |
+|---------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Banrisul Prudencial | v1.0.0 | [9 Nov 2021] (https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Banrisul-Banrisul_Open_Banking_Brasil-API-PAYMENTS-private_key_jwt-08-Nov-2021.zip) [[View]](https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?public=true&plan=gcEy05Ob9saL2) PASS |
+
