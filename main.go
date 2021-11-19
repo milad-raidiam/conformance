@@ -15,9 +15,9 @@ var (
 )
 
 /*
-* To generate all tables - run go main.go
-* To generate phase 2 table - run go main.go -t phase2
-* To generate phase 3 table - run go main.go -t phase3
+* To generate all tables - go run main.go
+* To generate phase 2 table - go run main.go -t phase2
+* To generate phase 3 table - go run main.go -t phase3
  */
 
 func init() {
