@@ -30,7 +30,7 @@ func main() {
 		generateFromCsv("./phase2-data.csv", "./phase2-output.txt", []string{"Organisation", "Deployment", "Consentimento API", "Dados Cadastrais (PF) API", "Dados Cadastrais (PJ) API", "Resources API", "Contas API", "Cartão de Crédito API", "Operações de Crédito - Empréstimos API", "Operações de Crédito - Financiamentos API", "Operações de Crédito - Adiantamento a Depositantes API", "Operações de Crédito - Direitos Creditórios Descontados API"})
 	}
 	if Target == "phase3" || Target == "all" {
-		generateFromCsv("./phase3-data.csv", "./phase3-output.txt", []string{"Organisation", "Deployment", "Payments"})
+		generateFromCsv("./phase3-data.csv", "./phase3-output.txt", []string{"Organisation", "Deployment", "MANU/DICT/INIC - T0", "MANU/DICT/INIC/QRES/QRDN - T2"})
 	}
 }
 
