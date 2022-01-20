@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/olekukonko/tablewriter"
+	alphabet "github.com/rh2g17/md-brasilian-alphabet-sort"
 )
 
 var (
@@ -41,6 +42,19 @@ func generateFromCsv(inputFile string, outputFile string, headers []string) {
 	//Read lines from file
 	lines, _ := csv.NewReader(f).ReadAll()
 	lines = lines[1:]
+	var sortLines []string
+
+	for _, line := range lines {
+		joinedLine := strings.Join(line, ",")
+		sortLines = append(sortLines, joinedLine)
+	}
+	sortLines = alphabet.MergeSort(sortLines)
+	lines = [][]string{}
+
+	for _, item := range sortLines {
+		split := strings.Split(item, ",")
+		lines = append(lines, split)
+	}
 
 	//Set the table to output as a string
 	tableOutput := &strings.Builder{}
