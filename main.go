@@ -20,7 +20,7 @@ var (
 * To generate phase 2 table - go run main.go -t phase2
 * To generate phase 3 table - go run main.go -t phase3
 * To generate phase 4 table - go run main.go -t phase4
-*/
+ */
 
 func init() {
 	flag.StringVar(&Target, "t", "all", "Target Table")
@@ -36,8 +36,8 @@ func main() {
 	}
 	if Target == "phase4" || Target == "all" {
 		// comment when phase 4 comes out
-		generateFromCsv("./phase4-data.csv", "./phase4-output.txt", []string{"Brand Name", "Accounts", "Admin", "Channels", "Consents", "Credit Cards Accounts", "Customers Business", "Customers Personal", "Discovery", "Financings", "Invoice Financings", "Loans", "Payments Consents", "Payments Pix", "Products Services", "Resources", "Unarranged Accounts Overdraft"})
-		
+		//generateFromCsv("./phase4-data.csv", "./phase4-output.txt", []string{"Brand Name", "Accounts", "Admin", "Channels", "Consents", "Credit Cards Accounts", "Customers Business", "Customers Personal", "Discovery", "Financings", "Invoice Financings", "Loans", "Payments Consents", "Payments Pix", "Products Services", "Resources", "Unarranged Accounts Overdraft"})
+
 		// uncomment when phase 4 comes out
 		// generateFromCsv("./phase4-data.csv", "./phase4-output.txt", []string{"Brand Name", "Open Data Investments - Funds", "Open Data Investments - Bank Fixed Incomes", "Open Data Investments - Credit Fixed Incomes", "Open Data Investments - Variable Incomes", "Open Data Investments - Treasure Titles", "Open Data Capitalization - Bonds", "Open Data Exchange - Online Rates", "Open Data Exchange - Vet Values", "Open Data Acquiring Services - Personals", "Open Data Acquiring Services - Businesses", "Open Data Pension - Risk Coverages", "Open Data Pension - Survival Coverages", "Open Data Insurance - Automotives", "Open Data Insurance - Homes", "Open Data Insurance - Personals"})
 	}
