@@ -152,9 +152,13 @@ func exportData(apiFamilyTypes []string, apiHeaderNames []string, version string
 			for _, resource := range server.APIResources {
 				// The family type must be in apiFamilyTypes and there must be an APICertificationURI
 				if utils.Contains(apiFamilyTypes, resource.APIFamilyType) && resource.APICertificationURI != nil && utils.IsRightVersion(resource.APIVersion, version) {
+					certDate := "No date"
+					if resource.CertificationStartDate != nil {
+						certDate = fmt.Sprintf("%v", resource.CertificationStartDate)
+					}
 					row_elements[resource.APIFamilyType] = fmt.Sprintf(
-						"[%v](%s)",
-						resource.CertificationStartDate,
+						"[%s](%s)",
+						certDate,
 						resource.APICertificationURI,
 					)
 				}
