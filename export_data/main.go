@@ -23,8 +23,8 @@ import (
  */
 
 var (
-	Target  string
-	Version string
+	Target            string
+	Version           string
 )
 
 func init() {
@@ -34,6 +34,12 @@ func init() {
 }
 
 func main() {
+	// Versions that are allowed
+	allowedVersions := []string {"1", "2"}
+	if !utils.Contains(allowedVersions, Version) {
+		log.Fatal("Version chosen is not allowed: ", Version)
+	}
+
 	resultsPathCsv := fmt.Sprintf("../results/%s/v%s/%s-v%s-data.csv", Target, Version, Target, Version)
 	resultsPathMd  := fmt.Sprintf("../results/%s/v%s/%s-v%s-data.md" , Target, Version, Target, Version)
 	// It's recommended to use semicolon as separator as some organisations might have comma in their names
