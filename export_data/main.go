@@ -80,6 +80,9 @@ func main() {
 
 		exportData(apiFamilyTypes, apiHeaderNames, Version, resultsPathCsv, separator)
 
+		// Filter entries that are duplicated
+		utils.FilterDuplicateEntries(resultsPathCsv, separator)
+
 		// Specifically for phase 2, we should filter out entries that do not have certification for consents API
 		utils.FilterEntriesWithoutConsents(resultsPathCsv, separator)
 
@@ -105,7 +108,10 @@ func main() {
 	// 		"opendata-insurance_homes",
 	// 		"opendata-insurance_personals",
 	// 	}
-
+	//
+	//  // Filter entries that are duplicated
+	//  utils.FilterDuplicateEntries(resultsPathCsv, separator)
+    //
 	// 	exportData(apiFamilyTypes, apiHeaderNames, Version, resultsPathCsv, separator)
 	//	headers = append(headers, apiHeaderNames...)
 	//	utils.GenerateFromCsv(resultsPathCsv, resultsPathMd, headers)
@@ -158,7 +164,12 @@ func exportData(apiFamilyTypes []string, apiHeaderNames []string, version string
 			for _, resource := range server.APIResources {
 				// The family type must be in apiFamilyTypes and there must be an APICertificationURI
 				if utils.Contains(apiFamilyTypes, resource.APIFamilyType) && resource.APICertificationURI != nil && utils.IsRightVersion(resource.APIVersion, version) {
-					certDate := "No date"
+					// Search for the date in the zip containing the certification
+					certDate := utils.DateFromZipName(fmt.Sprintf("%v", resource.APICertificationURI))
+					if certDate == "" {
+						certDate = "No date"
+					}
+					// If the date is available in the endpoint, it should overwrite the one from the zip
 					if resource.CertificationStartDate != nil {
 						certDate = fmt.Sprintf("%v", resource.CertificationStartDate)
 					}

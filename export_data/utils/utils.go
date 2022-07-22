@@ -8,6 +8,7 @@ import (
 	"os"
 	"encoding/csv"
 	"strconv"
+	"regexp"
 
 	"github.com/olekukonko/tablewriter"
 	alphabet "github.com/rh2g17/md-brasilian-alphabet-sort"
@@ -159,4 +160,52 @@ func FilterEntriesWithoutConsents(inputFile string, separator rune) {
 			}
 		}
 	}
+}
+
+func FilterDuplicateEntries(inputFile string, separator rune) {
+	fileRead, _ := os.Open(inputFile)
+
+	// Read lines from file
+	reader := csv.NewReader(fileRead)
+	reader.Comma = separator
+	lines, _ := reader.ReadAll()
+	fileRead.Close()
+
+	// Reopen file
+	fileWrite, err := os.Create(inputFile)
+	if err != nil {
+		log.Fatal("Failed to open file: ", err)
+	}
+	defer fileWrite.Close()
+
+	// Create writer
+	writer := csv.NewWriter(fileWrite)
+	writer.Comma = separator
+	defer writer.Flush()
+
+	// Writing header to the file
+	if err := writer.Write(lines[0]); err != nil {
+		log.Fatal("Failed to write to file: ", err)
+	}
+	lines = lines[1:]
+
+	// Keep only one instance of exactly equal lines
+	isWritten := make(map[string]bool)
+	for _, line := range lines {
+		if _, written := isWritten[strings.Join(line, " ")]; !written {
+			isWritten[strings.Join(line, " ")] = true
+			if err := writer.Write(line); err != nil {
+				log.Fatal("Failed to write to file: ", err)
+			}
+		}
+	}
+}
+
+func DateFromZipName(zip string) string {
+	re, err := regexp.Compile(`\d+-\D{3}-\d{4}`)
+	if err != nil {
+		log.Fatal("Could not create regular expression: ", err)
+	}
+	
+	return re.FindString(zip)
 }
