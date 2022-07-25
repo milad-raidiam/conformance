@@ -70,13 +70,19 @@ func IsRightVersion(apiVersion string, targetVersion string) bool {
 
 // Copied from the main.go file in the root directory
 func GenerateFromCsv(inputFile string, outputFile string, headers []string, separator rune) {
-	f, _ := os.Open(inputFile)
+	f, err := os.Open(inputFile)
+	if err != nil {
+		log.Fatal("Failed to open file: ", err)
+	}
 	defer f.Close()
 
 	// Read lines from file
 	reader := csv.NewReader(f)
 	reader.Comma = separator
-	lines, _ := reader.ReadAll()
+	lines, err := reader.ReadAll()
+	if err != nil {
+		log.Fatal("Failed to read csv file: ", err)
+	}
 	lines = lines[1:]
 	var sortLines []string
 
@@ -111,7 +117,10 @@ func GenerateFromCsv(inputFile string, outputFile string, headers []string, sepa
 	table.Render()
 
 	// Open output file
-	output, _ := os.OpenFile(outputFile, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0775)
+	output, err := os.OpenFile(outputFile, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0775)
+	if err != nil {
+		log.Fatal("Failed to open file: ", err)
+	}
 
 	toWrite := tableOutput.String()
 
@@ -126,7 +135,10 @@ func GenerateFromCsv(inputFile string, outputFile string, headers []string, sepa
 }
 
 func FilterEntriesWithoutConsents(inputFile string, separator rune) {
-	fileRead, _ := os.Open(inputFile)
+	fileRead, err := os.Open(inputFile)
+	if err != nil {
+		log.Fatal("Failed to open file: ", err)
+	}
 
 	// Read lines from file
 	reader := csv.NewReader(fileRead)
@@ -163,12 +175,18 @@ func FilterEntriesWithoutConsents(inputFile string, separator rune) {
 }
 
 func FilterDuplicateEntries(inputFile string, separator rune) {
-	fileRead, _ := os.Open(inputFile)
+	fileRead, err := os.Open(inputFile)
+	if err != nil {
+		log.Fatal("Failed to open file: ", err)
+	}
 
 	// Read lines from file
 	reader := csv.NewReader(fileRead)
 	reader.Comma = separator
-	lines, _ := reader.ReadAll()
+	lines, err := reader.ReadAll()
+	if err != nil {
+		log.Fatal("Failed to read csv file: ", err)
+	}
 	fileRead.Close()
 
 	// Reopen file
