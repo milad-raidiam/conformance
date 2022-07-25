@@ -143,7 +143,10 @@ func FilterEntriesWithoutConsents(inputFile string, separator rune) {
 	// Read lines from file
 	reader := csv.NewReader(fileRead)
 	reader.Comma = separator
-	lines, _ := reader.ReadAll()
+	lines, err := reader.ReadAll()
+	if err != nil {
+		log.Fatal("Failed to read csv file: ", err)
+	}
 	fileRead.Close()
 
 	// Reopen file
