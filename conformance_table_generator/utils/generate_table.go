@@ -10,7 +10,7 @@ func GenerateTable(apis []string, phase string, version string) {
 	tableHeaders = append(tableHeaders, apis...)
 	table := [][]string {tableHeaders}
 
-	dumpHeaders := []string {"Id da Organização", "Deployment", "API", "Data"}
+	dumpHeaders := []string {"Id da Organização", "Deployment", "API", "Version", "Data"}
 	dump := [][]string {dumpHeaders}
 
 	for i, api := range apis {
