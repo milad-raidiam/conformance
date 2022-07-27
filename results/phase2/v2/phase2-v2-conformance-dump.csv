@@ -1,0 +1,21 @@
+Id da Organização,Deployment,API,Data
+33254319,DummyDep2 Itaú,accounts,v2,27-07-2022 copy
+61182408,DummyServer,accounts,v2,27-07-2022
+61182408,Implentação Itaú,accounts,v2,27-07-2022
+33254319,DummyDep2,customers-business,v2,28-07-2022 copy
+61182408,DummyServer,customers-business,v2,28-07-2022
+61182408,Implentação Itaú,customers-business,v2,28-07-2022
+33254319,DummyDep2 Itaú,consents,v2,27-07-2022 copy
+61182408,DummyServer,consents,v2,27-07-2022
+61182408,Implentação Itaú,consents,v2,27-07-2022
+33254319,DummyDep2,credit-cards-accounts,v2,27-07-2022 copy
+61182408,DummyServer,credit-cards-accounts,v2,27-07-2022
+61182408,Implentação Itaú,credit-cards-accounts,v2,27-07-2022
+61182408,Implentação Itaú,financings,v2,27-07-2022
+61182408,Implentação Itaú,invoice-financings,v2,27-07-2022
+61182408,Implentação Itaú,loans,v2,27-07-2022
+61182408,Implentação Itaú,customers-personal,v2,27-07-2022
+33254319,DummyDep2 Itaú," resources",v2,27-07-2022 copy
+61182408,DummyServer," resources",v2,22-07-2022
+61182408,Implentação Itaú," resources",v2,27-07-2022
+61182408,Implentação Itaú,unarranged-accounts-overdraft,v2,27-07-2022
