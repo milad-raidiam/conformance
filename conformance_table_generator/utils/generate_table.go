@@ -30,11 +30,11 @@ func GenerateTable(apis []string, phase string, version string) {
 				newRow := make([]string, len(tableHeaders))
 				newRow[0] = file["Organisation"]
 				newRow[1] = file["Deployment"]
-				newRow[i + 2] = fmt.Sprintf("%s (%s)", file["Date"], file["Zip URL"])
+				newRow[i + 2] = fmt.Sprintf("[%s](%s)", file["Date"], file["Zip URL"])
 				
 				table = append(table, newRow)
 			} else {
-				table[ind][i + 2] = fmt.Sprintf("%s (%s)", file["Date"], file["Zip URL"])
+				table[ind][i + 2] = fmt.Sprintf("[%s](%s)", file["Date"], file["Zip URL"])
 			}
 		}
 	}
