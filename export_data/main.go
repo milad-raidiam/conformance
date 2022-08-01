@@ -171,7 +171,7 @@ func exportData(apiFamilyTypes []string, apiHeaderNames []string, version string
 					}
 					// If the date is available in the endpoint, it should overwrite the one from the zip
 					if resource.CertificationStartDate != nil {
-						certDate = fmt.Sprintf("%v", resource.CertificationStartDate)
+						certDate = utils.ConvertDate(fmt.Sprintf("%v", resource.CertificationStartDate))
 					}
 					row_elements[resource.APIFamilyType] = fmt.Sprintf(
 						"[%s](%s)",

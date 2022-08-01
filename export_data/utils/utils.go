@@ -1,14 +1,15 @@
 package utils
 
 import (
+	"encoding/csv"
 	"encoding/json"
 	"log"
 	"net/http"
-	"strings"
 	"os"
-	"encoding/csv"
-	"strconv"
 	"regexp"
+	"strconv"
+	"strings"
+	"time"
 
 	"github.com/olekukonko/tablewriter"
 	alphabet "github.com/rh2g17/md-brasilian-alphabet-sort"
@@ -229,4 +230,13 @@ func DateFromZipName(zip string) string {
 	}
 	
 	return re.FindString(zip)
+}
+
+func ConvertDate(date string) string {
+	t, err := time.Parse("02/01/2006", date)
+	if err != nil {
+		log.Fatalf("Failed to convert date (%s): %s", date, err)
+	}
+	
+	return t.Format("02-Jan-2006")
 }
