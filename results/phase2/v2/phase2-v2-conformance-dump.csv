@@ -1,21 +1,22 @@
-Id da Organização,Deployment,API,Version,Data
-33254319,DummyDep2 Itaú,accounts,v2,27-07-2022
-61182408,DummyServer,accounts,v2,27-07-2022
-61182408,Implentação Itaú,accounts,v2,27-07-2022
-33254319,DummyDep2,customers-business,v2,28-07-2022
-61182408,DummyServer,customers-business,v2,28-07-2022
-61182408,Implentação Itaú,customers-business,v2,28-07-2022
-33254319,DummyDep2 Itaú,consents,v2,27-07-2022
-61182408,DummyServer,consents,v2,27-07-2022
-61182408,Implentação Itaú,consents,v2,27-07-2022
-33254319,DummyDep2,credit-cards-accounts,v2,27-07-2022
-61182408,DummyServer,credit-cards-accounts,v2,27-07-2022
-61182408,Implentação Itaú,credit-cards-accounts,v2,27-07-2022
-61182408,Implentação Itaú,financings,v2,27-07-2022
-61182408,Implentação Itaú,invoice-financings,v2,27-07-2022
-61182408,Implentação Itaú,loans,v2,27-07-2022
-61182408,Implentação Itaú,customers-personal,v2,27-07-2022
-33254319,DummyDep2 Itaú," resources",v2,27-07-2022
-61182408,DummyServer," resources",v2,22-07-2022
-61182408,Implentação Itaú," resources",v2,27-07-2022
-61182408,Implentação Itaú,unarranged-accounts-overdraft,v2,27-07-2022
+Id da Organização,Deployment,API,Versão,Data
+30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,Accounts,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,Accounts,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,Accounts,v2,29-09-2022
+02038232,Business Customer Data api test 2.0.1 API,business,v2,29-09-2022
+02038232,Credit operations discounted credit rights api test 2.0.1,credit-card,v2,30-09-2022
+00000000,API-BB-v2,financings,v2,30-09-2022
+02038232,Financings api test 2.0.1,financings,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - CORPORATE,financings,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,financings,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS-BUSINESS,financings,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,financings,v2,29-09-2022
+02038232,Credit operations discounted credit rights api test 2.0.1,invoice-financings,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,invoice-financings,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,invoice-financings,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,invoice-financings,v2,29-09-2022
+00000000,API BB v2,loans,v2,30-09-2022
+02038232,Loans api test 2.0.1,loans,v2,30-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,personal,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,personal,v2,29-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,personal,v2,29-09-2022
+00000000,API BB v2,unarranged-overdraft,v2,30-09-2022
