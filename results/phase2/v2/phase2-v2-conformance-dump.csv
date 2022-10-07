@@ -1,22 +1,27 @@
 Id da Organização,Deployment,API,Version,Data
+00360305,Caixa Econômica Federal,accounts,v2,04-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,accounts,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,accounts,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,accounts,v2,29-09-2022
+00360305,Caixa Econômica Federal,business,v2,04-10-2022
 02038232,Business Customer Data api test 2.0.1 API,business,v2,29-09-2022
 00000000,API BB v2,consents,v2,05-10-2022
 02038232,Credit operations discounted credit rights api test 2.0.1,credit-card,v2,30-09-2022
-00000000,API BB v2,financings,v2,30-09-2022
+00000000,API BB v2,financings,v2,05-10-2022
+00360305,Caixa Econômica Federal,financings,v2,04-10-2022
 02038232,Financings api test 2.0.1,financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - CORPORATE,financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS-BUSINESS,financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,financings,v2,29-09-2022
+00360305,Caixa Econômica Federal,invoice-financings,v2,04-10-2022
 02038232,Credit operations discounted credit rights api test 2.0.1,invoice-financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,invoice-financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,invoice-financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,invoice-financings,v2,29-09-2022
-00000000,API BB v2,loans,v2,30-09-2022
+00000000,API BB v2,loans,v2,04-10-2022
 02038232,Loans api test 2.0.1,Loans,v2,30-09-2022
+00360305,Caixa Econômica Federal,personal,v2,04-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,personal,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,personal,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,personal,v2,29-09-2022
