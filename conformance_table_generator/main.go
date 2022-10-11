@@ -22,6 +22,9 @@ func init() {
 // go run main.go -t <phaseNo> -v <versionNo>
 // example
 // go run main.go -t phase2 -v 2
+
+// Add a .env file containing your github access token to the root of this project
+// GITHUB_AT=ghp_...
 func main() {
 	var apis []string
 

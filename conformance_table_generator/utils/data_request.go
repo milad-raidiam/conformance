@@ -5,11 +5,13 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"regexp"
 	"strconv"
 	"strings"
 
 	"github.com/OpenBanking-Brasil/conformance/tree/main/conformance_table_generator/models"
+	"github.com/joho/godotenv"
 )
 
 func importData(baseUrl string, path string, data models.GithubTree) (models.GithubTree, error) {
@@ -31,6 +33,10 @@ func importData(baseUrl string, path string, data models.GithubTree) (models.Git
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return nil, err
+	}
+	if err := godotenv.Load(".env"); err == nil {
+		token := "Bearer " + os.Getenv("GITHUB_AT")
+		req.Header.Add("Authorization", token)
 	}
 
 	resp, err := client.Do(req)
