@@ -4,3 +4,4 @@
 ./accounts/.DS_Store
 ./conformance/.DS_Store
 .idea
+.env
