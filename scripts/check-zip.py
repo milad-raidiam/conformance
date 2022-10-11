@@ -1,5 +1,3 @@
-import sys
-sys.dont_write_bytecode = True
 import argparse
 from os import listdir
 import re
