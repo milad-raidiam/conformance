@@ -5,9 +5,12 @@ jobs:
     if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: pre-commit
+        uses: pre-commit/action@v2.0.3
       - uses: actions/setup-python@v2
         with:
           python-version: "3.10.6"
       - name: check-zip
         run: |
-          python -m scripts.check-zip
+          python -m scripts.check-zip 2.0.1 accounts business consents credit-card financings invoice-financings loans personal resources unarranged-overdraft
