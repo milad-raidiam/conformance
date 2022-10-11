@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-zip
+        name: Check Zip
+        language: python
+        entry: python -m scripts.check-zip
+        exclude: ".*"
+        always_run: true
