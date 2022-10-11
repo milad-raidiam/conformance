@@ -130,6 +130,9 @@ func getEveryFileForApiAndVersion(baseUrl string, version string, api string, ba
 		infoLen := len(fileInformation)
 
 		orgId          := fileInformation[0]
+		if len(orgId) > 8 {
+			orgId = orgId[:8]
+		}
 		deploymentName := strings.Join(fileInformation[1 : infoLen - 3], " ")
 		apiName        := fileInformation[infoLen - 3]
 		versionName    := fileInformation[infoLen - 2]
@@ -176,7 +179,7 @@ func makeOrganisationsMap() map[string]string {
 
 	orgsWithParent := make(map[string]string)
 	for _, role := range roles {
-		if role.ParentOrganisationReference != nil {
+		if role.ParentOrganisationReference != nil && role.ParentOrganisationReference != role.RegistrationNumber {
 			orgsWithParent[role.RegistrationNumber[:8]] = fmt.Sprintf("%v", role.ParentOrganisationReference)[:8]
 		} else {
 			organisations[role.RegistrationNumber[:8]] = role.RegisteredName
