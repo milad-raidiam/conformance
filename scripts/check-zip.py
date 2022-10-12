@@ -4,7 +4,7 @@ import re
 
 def main(argv = None):
     parser = argparse.ArgumentParser(
-        description='Checks if every language has every translation key'
+        description='Checks the zip files added are correct'
     )
     parser.add_argument(
         "version",
