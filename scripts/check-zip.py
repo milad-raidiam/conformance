@@ -23,7 +23,7 @@ def main(argv = None):
 
     wrong_zips = []
     for api, directory in zip(api_list, directories):
-        pattern = re.compile(r"^\d{8}_.+_(?P<api>[A-Za-z-]+)_v[12]_(0[1-9]|[12]\d|3[01])-(0[1-9]|1[012])-(20\d\d).(zip|ZIP)$")
+        pattern = re.compile(r"^\d{8}_.+_(?P<api>[A-Za-z-]+)_v[12](-OL)?_(0[1-9]|[12]\d|3[01])-(0[1-9]|1[012])-(20\d\d).(zip|ZIP)$")
         for file in listdir(directory):
             m = pattern.match(file)
             if (m is None or (m.group('api') != api and m.group('api') != api.capitalize())) and file != ".DS_Store":
