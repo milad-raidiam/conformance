@@ -40,6 +40,7 @@ Id da Organização,Deployment,API,Version,Data
 33416994,BNDES Open Banking 1.2.0,business,v2,28-09-2022
 33479023,Banco Citibank – Open Banking Brazil V2.0,business,v2,23-09-2022
 35977097,Up.p Open Banking 1.0,business,v2,10-10-2022
+37715993,Accredito Open Banking 1.0.0,business,v2,10-10-2022
 42064545,Quanto Open Banking Opus Services 2.0.0,business,v2,07-10-2022
 58160789,Safra Open Finance 2.0,business,v2,07-10-2022
 59588111,BV-OpenFinance-2.0,business,v2,07-10-2022
@@ -62,6 +63,9 @@ Id da Organização,Deployment,API,Version,Data
 15114366,BOCOM BBM Open Banking 2.0.1,consents,v2,06-10-2022
 22896431,PicPay Open Banking 2.0.0,consents,v2,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,consents,v2,10-10-2020
+30306294,Banco BTG Pactual Open Banking v2.0 DIGITAL,consents,v2,26-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 MAIS,consents,v2,19-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 WM,consents,v2,27-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0,consents,v2,10-10-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,consents,v2,07-10-2022
 33264668,BANCO XP S.A. Open Banking 3.0,consents,v2,07-10-2022
@@ -84,10 +88,14 @@ Id da Organização,Deployment,API,Version,Data
 00360305,Caixa Econômica Federal,credit-card,v2,04-10-2022
 01181521,Open Finance 2.0.1,credit-card,v2,03-10-2022
 02038232,Credit operations discounted credit rights api test 2.0.1,credit-card,v2,30-09-2022
+04184779,Open Finance Brazil v2.0 - Bradescard,credit-card,v2,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,credit-card,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,credit-card,v2,05-10-2022
+18236120,Nu Open Banking 1.0.0,credit-card,v2,10-10-2022
 22896431,PicPay Open Banking 2.0.0,credit-card,v2,28-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,credit-card,v2,07-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 DIGITAL,credit-card,v2,06-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 WM,credit-card,v2,04-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,credit-card,v2,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,credit-card,v2,29-09-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,credit-card,v2,04-10-2022
@@ -95,6 +103,7 @@ Id da Organização,Deployment,API,Version,Data
 33479023,Banco Citibank – Open Banking Brazil V2.0,credit-card,v2,07-10-2022
 58160789,Safra Open Finance 2.0,credit-card,v2,10-10-2022
 59285411,Banco PAN Open Banking v1.0 API,credit-card,v2,10-10-2022
+59588111,BV-OpenFinance-2.0,credit-card,v2,07-10-2022
 60701190,Itau Unibanco Major,credit-card,v2,13-10-2022
 60746948,Banco Bradesco PF - Open Finance Brazil v2.0,credit-card,v2,04-10-2022
 60746948,Banco Bradesco PJ - Open Finance Brazil v2.0,credit-card,v2,04-10-2022
@@ -155,6 +164,7 @@ Id da Organização,Deployment,API,Version,Data
 18236120,Nu Open Banking 1.0.0,loans,v2,10-10-2022
 22896431,PicPay Open Banking 2.0.0,loans,v2,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,loans,v2,06-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 WM,loans,v2,27-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0,loans,v2,05-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,loans,v2,06-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,loans,v2,29-09-2022
@@ -179,6 +189,7 @@ Id da Organização,Deployment,API,Version,Data
 00360305,Caixa Econômica Federal,personal,v2,04-10-2022
 01181521,Open Finance 2.0.1,personal,v2,28-09-2022
 02038232,Personal Customer Data api test 2.0.1,personal,v2,10-10-2022
+04184779,Open Finance Brazil v2.0 - Bradescard,personal,v2,04-10-2022
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,personal,v2,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,personal,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,personal,v2,05-10-2022
@@ -191,6 +202,7 @@ Id da Organização,Deployment,API,Version,Data
 33254319,Banco Losango - Open Finance Brazil v2.0,personal,v2,04-10-2022
 33264668,BANCO XP S.A. Open Banking 3.0,personal,v2,06-10-2022
 35977097,Up.p Open Banking 1.0,personal,v2,10-10-2022
+37715993,Accredito Open Banking 1.0.0,personal,v2,10-10-2022
 37763847,Geru Open Finance v2,personal,v2,27-09-2022
 42064545,Quanto Open Banking Opus Services 2.0.0,personal,v2,07-10-2022
 58160789,Safra Open Finance 2.0,personal,v2,07-10-2022
@@ -216,9 +228,12 @@ Id da Organização,Deployment,API,Version,Data
 22896431,PicPay Open Banking 2.0.0,resources,v2,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - Corporate,resources,v2,10-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - Mais Business,resources,v2,10-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 MAIS,resources,v2,20-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 WM,resources,v2,27-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0,resources,v2,07-10-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,resources,v2,04-10-2022
 33416994,BNDES Open Banking 1.2.0,resources,v2,29-09-2022
+33479023,Banco Citibank – Open Banking Brazil V2.0,resources,v2,03-10-2022
 35977097,Up.p Open Banking 1.0,resources,v2,10-10-2022
 37763847,Geru Open Finance v2,resources,v2,03-10-2022
 42064545,Quanto Open Banking Opus Services 2.0.0,resources,v2,07-10-2022
