@@ -4,9 +4,9 @@ Id da Organização,Deployment,API,Version,Data
 01181521,Open Finance 2.0.1,accounts,v2,06-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,accounts,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,accounts,v2,05-10-2022
-15114366,BOCOM BBM Open Banking 2.0.1,accounts,v2,06-10-2022
-18236120,Nu Open Banking 1.0.0,accounts,v2,10-10-2022
-22896431,PicPay Open Banking 2.0.0,accounts,v2,07-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,accounts,v2-OL,06-10-2022
+18236120,Nu Open Banking 1.0.0,accounts,v2-OL,10-10-2022
+22896431,PicPay Open Banking 2.0.0,accounts,v2-OL,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,accounts,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,accounts,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,accounts,v2,29-09-2022
@@ -16,7 +16,7 @@ Id da Organização,Deployment,API,Version,Data
 33479023,Banco Citibank – Open Banking Brazil V2.0,accounts,v2,09-10-2022
 35977097,Up.p Open Banking 1.0,accounts,v2,10-10-2022
 58160789,Safra Open Finance 2.0,accounts,v2,10-10-2022
-59285411,Banco PAN Open Banking v1.0 API,accounts,v2,10-10-2022
+59285411,Banco PAN Open Banking v1.0,accounts,v2,10-10-2022
 59588111,BV-OpenFinance-2.0,accounts,v2,07-10-2022
 60701190,Itau Unibanco Major,accounts,v2,13-10-2022
 60746948,Banco Bradesco PF - Open Finance Brazil v2.0,accounts,v2,04-10-2022
@@ -32,11 +32,11 @@ Id da Organização,Deployment,API,Version,Data
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,business,v2,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,business,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,business,v2,05-10-2022
-15114366,BOCOM BBM Open Banking 2.0.1,business,v2,06-10-2022
-18236120,Nu Open Banking 1.0.0,business,v2,10-10-2022
-22896431,PicPay Open Banking 2.0.0,business,v2,07-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,business,v2-OL,06-10-2022
+18236120,Nu Open Banking 1.0.0,business,v2-OL,10-10-2022
+22896431,PicPay Open Banking 2.0.0,business,v2-OL,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - Corporate,business,v2,11-10-2022
-30306294,Banco BTG Pactual Open Banking v2.0 - Mais Business,business,v2,11-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS-BUSINESS,business,v2,11-10-2022
 33416994,BNDES Open Banking 1.2.0,business,v2,28-09-2022
 33479023,Banco Citibank – Open Banking Brazil V2.0,business,v2,23-09-2022
 35977097,Up.p Open Banking 1.0,business,v2,10-10-2022
@@ -60,12 +60,12 @@ Id da Organização,Deployment,API,Version,Data
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,consents,v2,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,consents,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,consents,v2,07-10-2022
-15114366,BOCOM BBM Open Banking 2.0.1,consents,v2,06-10-2022
-22896431,PicPay Open Banking 2.0.0,consents,v2,07-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,consents,v2-OL,06-10-2022
+22896431,PicPay Open Banking 2.0.0,consents,v2-OL,07-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,consents,v2,26-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,consents,v2,10-10-2020
-30306294,Banco BTG Pactual Open Banking v2.0 DIGITAL,consents,v2,26-09-2022
-30306294,Banco BTG Pactual Open Banking v2.0 MAIS,consents,v2,19-09-2022
-30306294,Banco BTG Pactual Open Banking v2.0 WM,consents,v2,27-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,consents,v2,19-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,consents,v2,27-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0,consents,v2,10-10-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,consents,v2,07-10-2022
 33264668,BANCO XP S.A. Open Banking 3.0,consents,v2,07-10-2022
@@ -79,7 +79,7 @@ Id da Organização,Deployment,API,Version,Data
 60701190,Itau Unibanco Major,consents,v2,07-10-2022
 60746948,Banco Bradesco PF - Open Finance Brazil v2.0,consents,v2,04-10-2022
 60746948,Banco Bradesco PJ - Open Finance Brazil v2.0,consents,v2,04-10-2022
-60746948,next - Open Finance Brazil v1.0 API,consents,v2,04-10-2022
+60746948,next - Open Finance Brazil v1.0,consents,v2,04-10-2022
 61186680,Banco BMG Open Banking 2.0.1,consents,v2,19-10-2022
 74014747,Ágora - Open Finance Brazil v2.0,consents,v2,04-10-2022
 90400888,Santander Open Banking 2.0.1,consents,v2,30-09-2022
@@ -91,18 +91,18 @@ Id da Organização,Deployment,API,Version,Data
 04184779,Open Finance Brazil v2.0 - Bradescard,credit-card,v2,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,credit-card,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,credit-card,v2,05-10-2022
-18236120,Nu Open Banking 1.0.0,credit-card,v2,10-10-2022
-22896431,PicPay Open Banking 2.0.0,credit-card,v2,28-09-2022
+18236120,Nu Open Banking 1.0.0,credit-card,v2-OL,10-10-2022
+22896431,PicPay Open Banking 2.0.0,credit-card,v2-OL,28-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,credit-card,v2,06-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,credit-card,v2,07-10-2022
-30306294,Banco BTG Pactual Open Banking v2.0 DIGITAL,credit-card,v2,06-10-2022
-30306294,Banco BTG Pactual Open Banking v2.0 WM,credit-card,v2,04-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,credit-card,v2,04-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,credit-card,v2,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,credit-card,v2,29-09-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,credit-card,v2,04-10-2022
 33264668,BANCO XP S.A. Open Banking 3.0,credit-card,v2,10-10-2022
 33479023,Banco Citibank – Open Banking Brazil V2.0,credit-card,v2,07-10-2022
 58160789,Safra Open Finance 2.0,credit-card,v2,10-10-2022
-59285411,Banco PAN Open Banking v1.0 API,credit-card,v2,10-10-2022
+59285411,Banco PAN Open Banking v1.0,credit-card,v2,10-10-2022
 59588111,BV-OpenFinance-2.0,credit-card,v2,07-10-2022
 60701190,Itau Unibanco Major,credit-card,v2,13-10-2022
 60746948,Banco Bradesco PF - Open Finance Brazil v2.0,credit-card,v2,04-10-2022
@@ -117,7 +117,7 @@ Id da Organização,Deployment,API,Version,Data
 02038232,Financings api test 2.0.1,financings,v2,29-09-2022
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,financings,v2,04-10-2022
 10573521,Mercado Pago Open Banking v2.0,financings,v2,05-10-2022
-15114366,BOCOM BBM Open Banking 2.0.1,financings,v2,06-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,financings,v2-OL,06-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - CORPORATE,financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS-BUSINESS,financings,v2,29-09-2022
@@ -127,7 +127,7 @@ Id da Organização,Deployment,API,Version,Data
 33416994,BNDES Open Banking 1.2.0,financings,v2,28-09-2022
 35977097,Up.p Open Banking 1.0,financings,v2,10-10-2022
 58160789,Safra Open Finance 2.0,financings,v2,08-10-2022
-59285411,Banco PAN Open Banking v1.0 API,financings,v2,10-10-2022
+59285411,Banco PAN Open Banking v1.0,financings,v2,10-10-2022
 59588111,BV-OpenFinance-2.0,financings,v2,07-10-2022
 60701190,Itau Unibanco Major,financings,v2,06-10-2022
 60746948,Banco Bradesco PF - Open Finance Brazil v2.0,financings,v2,04-10-2022
@@ -139,7 +139,7 @@ Id da Organização,Deployment,API,Version,Data
 00360305,Caixa Econômica Federal,invoice-financings,v2,04-10-2022
 01181521,Open Finance 2.0.1,invoice-financings,v2,28-09-2022
 02038232,Credit operations discounted credit rights api test 2.0.1,invoice-financings,v2,29-09-2022
-15114366,BOCOM BBM Open Banking 2.0.1,invoice-financings,v2,06-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,invoice-financings,v2-OL,06-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,invoice-financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,invoice-financings,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,invoice-financings,v2,29-09-2022
@@ -154,28 +154,28 @@ Id da Organização,Deployment,API,Version,Data
 90400888,Santander Open Banking 2.0.1,invoice-financings,v2,29-09-2022
 92702067,Banrisul Open Finance v2.0.0,invoice-financings,v2,28-09-2022
 92894922,Release Fase 2 V2,invoice-financings,v2,07-10-2022
-00000000," API BB v2",loans,v2-OL,04-10-2022
+00000000,API BB v2,loans,v2-OL,04-10-2022
 00360305,Caixa Econômica Federal,loans,v2,04-10-2022
 01181521,Open Finance 2.0.1,loans,v2,30-09-2022
 02038232,Loans api test 2.0.1,loans,v2,30-09-2022
 07237373,BNB Open Banking Brasil 2.0.1,loans,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,loans,v2,05-10-2022
-15114366,BOCOM BBM Open Banking 2.0.1,loans,v2,06-10-2022
-18236120,Nu Open Banking 1.0.0,loans,v2,10-10-2022
-22896431,PicPay Open Banking 2.0.0,loans,v2,07-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,loans,v2-OL,06-10-2022
+18236120,Nu Open Banking 1.0.0,loans,v2-OL,10-10-2022
+22896431,PicPay Open Banking 2.0.0,loans,v2-OL,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,loans,v2,06-10-2022
-30306294,Banco BTG Pactual Open Banking v2.0 WM,loans,v2,27-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,loans,v2,27-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0,loans,v2,05-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,loans,v2,06-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,loans,v2,29-09-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,loans,v2,04-10-2022
-33264668,BANCO XP S.A. Open Banking 2.0,loans,v2,06-10-2022
+33264668,BANCO XP S.A. Open Banking 3.0,loans,v2,06-10-2022
 33479023,Banco Citibank – Open Banking Brazil V2.0,loans,v2,05-10-2022
 35977097,Up.p Open Banking 1.0,loans,v2,10-10-2022
 37715993,Accredito Open Banking 1.0.0,loans,v2,10-10-2022
 37763847,Geru Open Finance v2,loans,v2,26-09-2022
 58160789,Safra Open Finance 2.0,loans,v2,07-10-2022
-59285411,Banco PAN Open Banking v1.0 API,loans,v2,10-10-2022
+59285411,Banco PAN Open Banking v1.0,loans,v2,10-10-2022
 59588111,BV-OpenFinance-2.0,loans,v2,07-10-2022
 60701190,Itau Unibanco Major,loans,v2,06-10-2022
 60746948,Banco Bradesco PF - Open Finance Brazil v2.0,loans,v2,04-10-2022
@@ -193,9 +193,9 @@ Id da Organização,Deployment,API,Version,Data
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,personal,v2,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,personal,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,personal,v2,05-10-2022
-15114366,BOCOM BBM Open Banking 2.0.1,personal,v2,06-10-2022
-18236120,Nu Open Banking 1.0.0,personal,v2,10-10-2022
-22896431,PicPay Open Banking 2.0.0,personal,v2,07-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,personal,v2-OL,06-10-2022
+18236120,Nu Open Banking 1.0.0,personal,v2-OL,10-10-2022
+22896431,PicPay Open Banking 2.0.0,personal,v2-OL,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - DIGITAL,personal,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,personal,v2,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,personal,v2,29-09-2022
@@ -223,15 +223,16 @@ Id da Organização,Deployment,API,Version,Data
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,resources,v2,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,resources,v2,10-10-2022
 10573521,Mercado Pago Open Banking v2.0,resources,v2,05-10-2022
-15114366,BOCOM BBM Open Banking 2.0.1,resources,v2,13-10-2022
-18236120,Nu Open Banking 1.0.0,resources,v2,10-10-2022
-22896431,PicPay Open Banking 2.0.0,resources,v2,07-10-2022
+15114366,BOCOM BBM Open Banking 2.0.1,resources,v2-OL,13-10-2022
+18236120,Nu Open Banking 1.0.0,resources,v2-OL,10-10-2022
+22896431,PicPay Open Banking 2.0.0,resources,v2-OL,07-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - Corporate,resources,v2,10-10-2022
-30306294,Banco BTG Pactual Open Banking v2.0 - Mais Business,resources,v2,10-10-2022
-30306294,Banco BTG Pactual Open Banking v2.0 MAIS,resources,v2,20-09-2022
-30306294,Banco BTG Pactual Open Banking v2.0 WM,resources,v2,27-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS-BUSINESS,resources,v2,10-10-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,resources,v2,20-09-2022
+30306294,Banco BTG Pactual Open Banking v2.0 - WM,resources,v2,27-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0,resources,v2,07-10-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,resources,v2,04-10-2022
+33264668,BANCO XP S.A. Open Banking 3.0,resources,v2,06-10-2022
 33416994,BNDES Open Banking 1.2.0,resources,v2,29-09-2022
 33479023,Banco Citibank – Open Banking Brazil V2.0,resources,v2,03-10-2022
 35977097,Up.p Open Banking 1.0,resources,v2,10-10-2022
@@ -243,7 +244,7 @@ Id da Organização,Deployment,API,Version,Data
 60701190,Itau Unibanco Major,resources,v2,06-10-2022
 60746948,Banco Bradesco PF - Open Finance Brazil v2.0,resources,v2,07-10-2022
 60746948,Banco Bradesco PJ - Open Finance Brazil v2.0,resources,v2,04-10-2022
-60746948,next - Open Finance Brazil v1.0 API ,resources,v2,04-10-2022
+60746948,next - Open Finance Brazil v1.0 ,resources,v2,04-10-2022
 61186680,Banco BMG Open Banking 2.0.1,resources,v2,04-10-2022
 74014747,Ágora - Open Finance Brazil v2.0,resources,v2,04-10-2022
 90400888,Santander Open Banking 2.0.1,resources,v2,30-09-2022
@@ -251,6 +252,7 @@ Id da Organização,Deployment,API,Version,Data
 00000000,API BB v2,unarranged-overdraft,v2-OL,05-10-2022
 00360305,Caixa Econômica Federal,unarranged-overdraft,v2,06-10-2022
 01181521,Open Finance 2.0.1,unarranged-overdraft,v2,03-10-2022
+02038232,Unarranged overdraft api test 2.0.1,unarranged-overdraft,v2,06-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0,unarranged-overdraft,v2,07-10-2022
 33479023,Banco Citibank – Open Banking Brazil V2.0,unarranged-overdraft,v2,17-10-2022
 58160789,Safra Open Finance 2.0,unarranged-overdraft,v2,07-10-2022
