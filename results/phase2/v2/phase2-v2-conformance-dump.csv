@@ -141,7 +141,7 @@ Id da Organização,Deployment,API,Version,Data
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,financings,v2-OL,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,financings,v2-OL,29-09-2022
 33254319,Banco Losango - Open Finance Brazil v2.0,financings,v2-OL,04-10-2022
-33479023,Banco Citibank – Open Banking Brazil V2.0,financings,v2,28-10-2022
+33479023,Banco Citibank – Open Banking Brazil V2.0,financings,v2-OL,28-10-2022
 33657248,BNDES Open Banking 1.2.0,financings,v2-OL,28-09-2022
 35977097,Up.p Open Banking 1.0,financings,v2-OL,10-10-2022
 58160789,Safra Open Finance 2.0,financings,v2-OL,08-10-2022
@@ -164,7 +164,7 @@ Id da Organização,Deployment,API,Version,Data
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS-BUSINESS,invoice-financings,v2-OL,05-10-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - MAIS,invoice-financings,v2-OL,29-09-2022
 30306294,Banco BTG Pactual Open Banking v2.0 - WM,invoice-financings,v2-OL,29-09-2022
-33479023,Banco Citibank – Open Banking Brazil V2.0,invoice-financings,v2,05-10-2022
+33479023,Banco Citibank – Open Banking Brazil V2.0,invoice-financings,v2-OL,05-10-2022
 37715993,Accredito Open Banking 1.0.0,invoice-financings,v2-OL,10-10-2022
 58160789,Safra Open Finance 2.0,invoice-financings,v2-OL,07-10-2022
 59588111,BV-OpenFinance-2.0,invoice-financings,v2-OL,07-10-2022
