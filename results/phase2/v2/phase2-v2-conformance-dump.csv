@@ -38,6 +38,7 @@ Id da Organização,Deployment,API,Version,Data
 03502961,API Test 2.0.1,business,v2-OL,10-10-2022
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,business,v2-OL,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,business,v2-OL,10-10-2022
+07237373,BNB Open Finance Brasil 2.0.1,business,v2,04-10-2022
 10573521,Mercado Pago Open Banking v2.0,business,v2-OL,05-10-2022
 15114366,BOCOM BBM Open Banking 2.0.1,business,v2-OL,06-10-2022
 18236120,Nu Open Banking 1.0.0,business,v2-OL,10-10-2022
@@ -67,6 +68,7 @@ Id da Organização,Deployment,API,Version,Data
 04184779,Banco Bradescard - Open Finance Brazil v2.0,consents,v2-OL,04-10-2022
 07207996,Banco Bradesco Financiamentos - Open Finance Brazil v2.0,consents,v2-OL,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,consents,v2-OL,10-10-2022
+07237373,BNB Open Finance Brasil 2.0.1,consents,v2,04-10-2022
 10573521,Mercado Pago Open Banking v2.0,consents,v2-OL,07-10-2022
 15114366,BOCOM BBM Open Banking 2.0.1,consents,v2-OL,06-10-2022
 18236120,Nu Open Banking 1.0.0,consents,v2-OL,17-10-2022
@@ -106,6 +108,7 @@ Id da Organização,Deployment,API,Version,Data
 02038232,Credit operations discounted credit rights api test 2.0.1,credit-card,v2-OL,30-09-2022
 04184779,Banco Bradescard - Open Finance Brazil v2.0,credit-card,v2-OL,04-10-2022
 07237373,BNB Open Banking Brasil 2.0.1,credit-card,v2-OL,10-10-2022
+07237373,BNB Open Finance Brasil 2.0.1,credit-card,v2,04-10-2022
 10573521,Mercado Pago Open Banking v2.0,credit-card,v2-OL,05-10-2022
 18236120,Nu Open Banking 1.0.0,credit-card,v2-OL,10-10-2022
 22896431,PicPay Open Banking 2.0.0,credit-card,v2-OL,28-09-2022
@@ -184,6 +187,7 @@ Id da Organização,Deployment,API,Version,Data
 01181521,Open Finance 2.0.1,loans,v2-OL,30-09-2022
 02038232,Loans api test 2.0.1,loans,v2-OL,30-09-2022
 07237373,BNB Open Banking Brasil 2.0.1,loans,v2-OL,10-10-2022
+07237373,BNB Open Finance Brasil 2.0.1,loans,v2,04-10-2022
 10573521,Mercado Pago Open Banking v2.0,loans,v2-OL,05-10-2022
 15114366,BOCOM BBM Open Banking 2.0.1,loans,v2-OL,06-10-2022
 18236120,Nu Open Banking 1.0.0,loans,v2-OL,10-10-2022
